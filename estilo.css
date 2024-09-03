@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #005f73;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background-color: #004d00;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    background-color: #0a9396;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #94d2bd;
+}
+
+#sobre {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e9d8a6;
+}
+
+#sobre h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#sobre img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#servicos {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#servicos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#servicos .servico {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+#depoimentos {
+    padding: 50px 20px;
+    background-color: #e9d8a6;
+    text-align: center;
+}
+
+#depoimentos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#depoimentos .depoimento {
+    font-style: italic;
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+#contato {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contato button {
+    background-color: #0a9396;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: #94d2bd;
+}
+
+footer {
+    background-color: #005f73;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #94d2bd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
